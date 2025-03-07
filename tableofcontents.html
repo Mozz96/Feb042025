@@ -33,13 +33,52 @@
             tr:nth-child(odd) {
               background-color: #f57d2c;
             }
+
+            
+           nav li {
+                display: inline;
+                padding: 8px;
+            }
+
+           nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+           nav li a {
+                display: inline;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+           nav li a:hover {
+                background-color: #0f695a;
+            }
+
+           nav .active {
+                background-color: #0cd827;
+            }
+
         </style>
 
 
     </head>
     <body style="background-color: rgb(21, 85, 141);">
-        <b class="gorditas-regular">Return to Main Page <a href="index.html">here!</a></b>
-      
+        <header><h1 class="irish-grover-regular">Contact Me!</h1></header>
+
+        <nav>
+            <ul>
+                <li class="gorditas-regular"><a href="index.html">Home</a></li>
+                <li class="gorditas-regular"><a class="active" href="tableofcontents.html">Music</a></li>
+                <li class="gorditas-regular"><a href="contactme.html">Contact</a></li>
+                
+            </ul>
+            
+        </nav>
         <h1 class="gorditas-regular">A Few Pieces I Think You'd Enjoy! &#127900;</h1>
         
         <table>
@@ -83,21 +122,31 @@
             </ol> 
           </p>
 
-    <h2 class="gorditas-regular">My Latest Piece (As of March 2025, more incoming!&#128064;)</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/KQtaPHBy19A?si=a00hWaJl261FcXlP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2 class="gorditas-regular">Sample Piece: Ebb and Flow - The Calm Coastal Village</h2>
+        <audio controls>
+            <source src="/assets/sounds/Ebb and Flow.mp3" type="audio/mp3">
 
-    <p class="gorditas-regular">Although it's been a long time since I've uploaded music, I'm still creating to this very day!</p>
-    <p class="gorditas-regular">In the near future I plan to do quite a few things musically, such as:
-      <ul>
-        <li class="gorditas-regular">Upload all of my current pieces onto music platform.</li>
-        <li class="gorditas-regular">Plan and compose new pieces before summer starts.</li>
-        <li class="gorditas-regular">Record musical covers of existing songs, using my own arrangements and vocals.</li>
-      </ul>
-    </p>
-    
-    <p id="demo" class="gorditas-regular"></p>
-    <script>
-      document.getElementById("demo").innerHTML = "So Stay Tuned!";
-    </script>
+        </audio>
+
+        <h2 class="gorditas-regular">My Latest Piece (As of March 2025, more incoming!&#128064;)</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KQtaPHBy19A?si=a00hWaJl261FcXlP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <p class="gorditas-regular">Although it's been a long time since I've uploaded music, I'm still creating to this very day!</p>
+        <p class="gorditas-regular">In the near future I plan to do quite a few things musically, such as:
+          <ul>
+            <li class="gorditas-regular">Upload all of my current pieces onto music platform.</li>
+            <li class="gorditas-regular">Plan and compose new pieces before summer starts.</li>
+            <li class="gorditas-regular">Record musical covers of existing songs, using my own arrangements and vocals.</li>
+          </ul>
+        </p>
+        
+        <p id="demo" class="gorditas-regular"></p>
+        <script>
+          document.getElementById("demo").innerHTML = "So Stay Tuned!";
+        </script>
+
+        
+
+      
     </body>
 </html>

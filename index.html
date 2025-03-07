@@ -11,25 +11,59 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Irish+Grover&display=swap" rel="stylesheet">
-
-
-
-
+        <style>
+            li {
+                display: inline;
+                padding: 8px;
+            }
+    
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+    
+            li a {
+                display: inline;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover {
+                background-color: #0f695a;
+            }
+    
+            .active {
+                background-color: #0cd827;
+            }
+         </style>
 
 
     </head>
     <body>
         <div id="container">
-        <header><h1 class="irish-grover-regular">Hiya, welcome to my page!</h1></header>
-            <nav><b>Check out my library of music <a href="tableofcontents.html">here!</a></b></nav>
-            <section class="mainLeft"><img src="images/babooga.webp" alt="the creature" width="150px" title="What a funny little dude!" usemap="#babooga"><p class="gorditas-regular"><b> Have you seen this creature?</b> <i>Now you have! :D</i></p>
+            <header><h1 class="irish-grover-regular">Hiya, welcome to my page!</h1></header>
+                
+            <nav>
+                <ul>
+                    <li class="gorditas-regular"><a class="active" href="index.html">Home</a></li>
+                    <li class="gorditas-regular"><a href="tableofcontents.html">Music</a></li>
+                    <li class="gorditas-regular"><a href="contactme.html">Contact</a></li>
+                    
+                </ul>
+                
+            </nav>
+            <section class="mainLeft"><img src="assets/images/babooga.webp" alt="the creature" width="150px" title="What a funny little dude!" usemap="#babooga"><p class="gorditas-regular"><b> Have you seen this creature?</b> <i>Now you have! :D</i></p>
             <map name="babooga">
             <area shape="rect" coords="28,36,140,120" alt="A goobbue from Final Fantasy 14" href="https://na.finalfantasyxiv.com">
 
             </map>
             </section>
             <section class="mainRight">
-            <article><img src="/images/verdanttreesthumbnail.png" alt="an FL Studio music chart" width="150px" title="An invisible chart, which is sad because this was a pretty good piece"></article>
+            <article><img src="assets/images/verdanttreesthumbnail.png" alt="an FL Studio music chart" width="150px" title="An invisible chart, which is sad because this was a pretty good piece"></article>
             <article><p class="gorditas-regular"><b>Here we'll be looking at some examples of music charts in FL Studio!</b> <i style="color: rgb(33, 13, 204);">Or will we? OoooOOOooooo...</i> If you want to see some actual music pieces, come check out my official YouTube channel <a href="https://www.youtube.com/@Mozz96">here!</a></p></article> 
             </section>
 
